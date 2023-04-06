@@ -59,7 +59,7 @@
 		<!-- Se definen los campos del formulario -->
 		<table class="formulario"> <!-- Inicio de la tabla del formulario -->
 
-			<form id="combo" name="combo" action="/includes/insertar.php" method="POST"> <!-- Inicio del formulario con el atributo id, name, action y method -->
+			<form id="combo" name="combo" action="includes/insertar.php" method="POST"> <!-- Inicio del formulario con el atributo id, name, action y method -->
 
 			<div><tr> 
 				<td><label for="nombre">Nombre y apellido:  </label></td> 
@@ -94,6 +94,12 @@
 			<div><tr> 
 				<td><label for="comuna">Comuna:</label></td> <!-- Etiqueta y campo "Comuna" -->
 				<td><select name="cbx_comuna" id="cbx_comuna" required> <!-- Campo de selección para la comuna del usuario con el atributo name, id y required -->
+				</select></td>
+			</tr></div>
+
+			<div><tr> 
+				<td><label for="comuna">Candidato:</label></td> <!-- Etiqueta y campo "Candidadto" -->
+				<td><select name="cbx_candidato" id="cbx_candidato" required> <!-- Campo de selección para la comuna del usuario con el atributo name, id y required -->
 				</select></td>
 			</tr></div>
 
