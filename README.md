@@ -4,7 +4,7 @@ Prueba Desis.cl - formulario votación regional
 Athair@hotmail.com
 +569 66949444 
 
-NOTA IMPORTANTE: UNA VEZ DESCARGADO EL CÓDIGO, DEBEN RENOMBRAR LA CARPETA POR /votacionDesis
+NOTA IMPORTANTE: UNA VEZ DESCARGADO EL CÓDIGO, DEBEN RENOMBRAR LA CARPETA votaciondesis-main POR votaciondesis
 
 Se adjunta archivo SQL con las tablas y datos de todas las comunas de Chile relacionadas a cada región del país. 
 
