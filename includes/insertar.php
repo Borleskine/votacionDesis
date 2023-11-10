@@ -63,7 +63,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit();
 }
 
-// Evitar inyección SQL utilizando consultas preparadas
+// Preaparo la consulta sql para evitar inyección utilizando consultas preparadas
 $query = "INSERT INTO votacion (nombre, alias, rut, email, region, comuna, candidato, medios) 
 VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
